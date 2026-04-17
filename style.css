@@ -18,6 +18,15 @@ body {
     border: 3px solid #1c2b45;
 }
 
+.containerUpdates {
+    width: 1000px;
+    margin: auto;
+    background: rgba(71, 62, 0, 0.996);
+    border: 3px solid #aa9701;
+    padding: 30px;
+    color: white
+}
+
 .WIPcontainer {
     width: 800px;
     margin: auto;
@@ -31,7 +40,23 @@ body {
     margin: auto;
     background: linear-gradient(#181d23, #143f6d);
     border: 3px solid #1c2b45;
+    padding: 30px;
 }
+
+
+.subcontainerUpdates {
+    width: 800px;
+    margin: auto;
+    background: linear-gradient(#232118, #6d5414);
+    border: 3px solid #453c1c;
+    padding: 30px;
+}
+
+.subcontainerUpdates a{
+    text-decoration: none;
+    color: rgb(43, 255, 0);
+}
+
 
 .container2 {
     width: 500px;
@@ -233,5 +258,6 @@ footer {
     object-fit: cover;   /* recorta sin deformar */
     display: block;
 }
+
 
 
