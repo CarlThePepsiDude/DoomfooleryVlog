@@ -7,8 +7,17 @@ body {
 .container {
     width: 1000px;
     margin: auto;
-    background: linear-gradient(#181d23, #6da6e2);
+    background: linear-gradient(#181d23, #39689a);
     border: 3px solid #1c2b45;
+}
+
+.containermain {
+     width: 1000px;
+    margin: auto;
+    background: rgba(0, 46, 98, 0.996);
+    border: 3px solid #014daa;
+    padding: 30px;
+    color: white
 }
 
 .containerNews {
@@ -58,11 +67,52 @@ body {
 }
 
 
+.subcontainerWiki {
+    width: 800px;
+    margin: auto;
+    background: linear-gradient(#231c18, #6d3a14);
+    border: 3px solid #453c1c;
+    padding: 30px;
+    color: white;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.icon-box {
+ margin: 10px;
+ padding: 20px;
+ border: 2px solid white;
+ text-align: center;
+ width: 200px;
+ text-decoration: none;
+}
+
+.CharacterPicture { 
+ width: 290px;
+ max-width: 290px;
+ text-decoration: none;
+ text-align: center;
+}
+
+.MapPicture {
+    margin: 20px;
+    padding: 30px;
+    width: 290px;
+    max-width: 290px;
+    text-decoration: none;
+}
+
+
 .container2 {
     width: 500px;
     margin: auto;
     background: rgb(33, 67, 116);
     border: 3px solid #1c2b45;
+    padding: 30px;
 }
 
 .DoomworldButton {
@@ -219,11 +269,10 @@ footer {
 
 .logo {
     position: absolute;
-    top: 20px;      /* mueve hacia abajo */
-    left: -10px;     /* mueve hacia la derecha */
-    width: 600px;   /* tamaño del logo */
+    top: -3px;      /* mueve hacia abajo */
+    left: 290px;     /* mueve hacia la derecha */
+    width: 350px;   /* tamaño del logo */
     filter: drop-shadow(0 0 10px #000000);
-
 
 }
 
@@ -257,6 +306,49 @@ footer {
     height: 100%;
     object-fit: cover;   /* recorta sin deformar */
     display: block;
+}
+
+/* INFOBOX */
+.infobox{
+    width:270px;
+    border:1px solid #aaa;
+    background: linear-gradient(#1a4c16, #087600);
+    font-family:Arial, sans-serif;
+    float:right;
+    margin:10px;
+}
+
+.infobox-title{
+    background: linear-gradient(#1a4c16, #087600);
+    text-align:center;
+    font-size:18px;
+    padding:8px;
+    margin:0;
+}
+
+.infobox-image{
+    width:100%;
+    display:block;
+}
+
+.infobox table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+.infobox th{
+    text-align:left;
+    background: linear-gradient(#1a4c16, #087600);
+    padding:5px;
+    width:40%;
+}
+
+.infobox td{
+    padding:5px;
+}
+
+.infobox tr{
+    border-top:1px solid #ccc;
 }
 
 
