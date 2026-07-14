@@ -76,6 +76,11 @@ body {
     color: white;
 }
 
+.subcontainerWiki a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
 .icon-container {
     display: flex;
     justify-content: center;
