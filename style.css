@@ -125,13 +125,31 @@ body {
     float: left;
     background: linear-gradient(#2c4153, #4e7c9b);
     border: 3px solid #1c2b45;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.DoomworldButton:hover {
+    width: 45%;
+    float: left;
+    background: linear-gradient(#4e7c9b, #2c4153);
+    border: 3px solid #1c2b45;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: white;
     padding: 5px;
     box-sizing: border-box;
 }
 
-.DoomworldButton a{
+.DoomworldButton a {
     text-decoration: none;
+    padding: 5px;
     color: white;
 }
 
@@ -140,12 +158,30 @@ body {
     float: right;
     background: linear-gradient(#055a04, #129e19);
     border: 3px solid #1c2b45;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.ZandronumCont:hover {
+    width: 45%;
+    float: right;
+    background: linear-gradient(#129e19, #055a04);
+    border: 3px solid #1c2b45;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 5px;
     box-sizing: border-box;
 }
 
+
 .ZandronumCont a{
     text-decoration: none;
+    padding: 5px;
     color: white;
 }
 
@@ -154,12 +190,30 @@ body {
     margin-left: 125px;
     background: linear-gradient(#0d045a, #2500e0);
     border: 3px solid #1c2b45;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.DownloadButton:hover {
+    width: 45%;
+    margin-left: 125px;
+    background: linear-gradient(#2500e0, #0d045a);
+    border: 3px solid #1c2b45;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 5px;
     box-sizing: border-box;
 }
 
 .DownloadButton a{
     text-decoration: none;
+    text-align: center;
+    padding: 5px;
     color: white;
 }
 
@@ -189,6 +243,13 @@ nav ul {
 
 nav li {
     border-right: 1px solid #2e3f5f;
+}
+
+nav img {
+    position: absolute;
+    top: 30%;
+    left: 65%;
+    max-width: 10%;
 }
 
 nav a {
@@ -228,7 +289,7 @@ main {
 
 footer {
     text-align: right;
-    padding: 10px;
+    padding: 20px;
     color: white;
 }
 
